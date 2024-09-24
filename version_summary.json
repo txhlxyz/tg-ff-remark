@@ -1,0 +1,13 @@
+{
+  "currentVersion": "2.1.3",
+  "versionIndex": {
+    "2.1.3": "0",
+  },
+  "versionDetailList": [
+    {
+      "version": "2.1.3",
+      "title": "The underlying version",
+      "log": "The underlying version\n"
+    }
+  ]
+}
