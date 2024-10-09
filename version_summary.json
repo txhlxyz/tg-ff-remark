@@ -1,13 +1,13 @@
 {
-  "currentVersion": "2.1.3",
-  "versionIndex": {
-    "2.1.3": "0",
-  },
-  "versionDetailList": [
-    {
-      "version": "2.1.3",
-      "title": "The underlying version",
-      "log": "The underlying version\n"
+  "currentVersion": "2.1.4",
+  "versionDetail": {
+    "2.1.4":{
+      "log": "The underlying version\n",
+      "url": {
+        "macosx-amd64":"https://pan.quark.cn/s/6b0a7b9cb4cf",
+        "windows-amd64":"https://pan.quark.cn/s/6b0a7b9cb4cf",
+        "linux-amd64":"https://pan.quark.cn/s/6b0a7b9cb4cf"
+      }
     }
-  ]
+  }
 }
