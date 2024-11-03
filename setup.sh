@@ -29,20 +29,34 @@ fi
 
 # 创建systemd服务
 SERVICE_NAME="tg-ff"  # 替换为你的服务名
+
+cat > /opt/tg-ff/start-tg-ff.sh << "EOF"
+  #!/bin/bash
+  EXECUTABLE=$(command -v tg-ff)
+  if [ -z "$EXECUTABLE" ]; then
+      echo "Error: tg-ff not found in PATH."
+      exit 1
+  fi
+  exec "$EXECUTABLE"
+EOF
+
 SERVICE_FILE="/etc/systemd/system/$SERVICE_NAME.service"
 
-echo "[Unit]
+cat > $SERVICE_FILE << EOF
+[Unit]
 Description=TG-FF
 
 [Service]
 Type=simple
 User=root
-ExecStart=/usr/bin/tg-ff --daemon
+ExecStart=/opt/tg-ff/start-tg-ff.sh --daemon
 Restart=on-failure
 RestartSec=10s
 
 [Install]
-WantedBy=multi-user.target" | sudo tee $SERVICE_FILE
+WantedBy=multi-user.target
+
+EOF
 
 # 重新加载systemd，并启动服务
 sudo systemctl daemon-reload
@@ -50,7 +64,9 @@ sudo systemctl enable $SERVICE_NAME
 echo "安装完成。"
 echo "使用以下命令进行启动和停止"
 echo "-----------------------------------------------"
-echo "-----启动：sudo systemctl start $SERVICE_NAME------------"
-echo "-----停止：sudo systemctl stop $SERVICE_NAME------------"
-echo "-----重启：sudo systemctl restart $SERVICE_NAME------------"
-echo "-----------------------------------------------"
+echo "-----启动服务------------"
+echo "     sudo systemctl start $SERVICE_NAME       "
+echo "-----停止服务------------"
+echo "     sudo systemctl stop $SERVICE_NAME       "
+echo "-----重启服务------------"
+echo "     sudo systemctl restart $SERVICE_NAME       "
