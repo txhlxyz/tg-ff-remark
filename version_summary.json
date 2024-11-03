@@ -7,7 +7,7 @@
       "url": {
         "macosx-amd64":"https://pan.quark.cn/s/9c9db09a7078",
         "windows-amd64":"https://pan.quark.cn/s/e9c4db2157b9",
-        "linux-amd64":"https://pan.quark.cn/s/4153f8bf965d",
+        "linux-amd64":"curl -sSL https://raw.githubusercontent.com/txhlxyz/tg-ff/refs/heads/main/setup.sh | bash",
         "docker":"docker run --restart=always --name tg-ff --privileged=true -p 8086:8086 -v /etc/localtime:/etc/localtime:ro -v /opt/tg-ff/downloads:/opt/tg-ff/downloads -d oan1x/tg-ff:2.1.4"
       }
     }
