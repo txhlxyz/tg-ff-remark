@@ -40,6 +40,8 @@ cat > /opt/tg-ff/start-tg-ff.sh << "EOF"
   exec "$EXECUTABLE"
 EOF
 
+chmod +x /opt/tg-ff/start-tg-ff.sh
+
 SERVICE_FILE="/etc/systemd/system/$SERVICE_NAME.service"
 
 cat > $SERVICE_FILE << EOF
