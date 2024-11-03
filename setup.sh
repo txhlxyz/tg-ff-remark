@@ -27,20 +27,7 @@ elif [[ "$PACKAGE_FORMAT" == "deb" ]]; then
     sudo apt-get install -f  # 修复依赖问题
 fi
 
-# 创建systemd服务
-SERVICE_NAME="tg-ff"  # 替换为你的服务名
-
-cat > /opt/tg-ff/start-tg-ff.sh << "EOF"
-  #!/bin/bash
-  EXECUTABLE=$(command -v tg-ff)
-  if [ -z "$EXECUTABLE" ]; then
-      echo "Error: tg-ff not found in PATH."
-      exit 1
-  fi
-  exec "$EXECUTABLE"
-EOF
-
-chmod +x /opt/tg-ff/start-tg-ff.sh
+SERVICE_NAME="tg-ff"  
 
 SERVICE_FILE="/etc/systemd/system/$SERVICE_NAME.service"
 
@@ -51,16 +38,14 @@ Description=TG-FF
 [Service]
 Type=simple
 User=root
-ExecStart=/opt/tg-ff/start-tg-ff.sh --daemon
+ExecStart=/usr/local/bin/tg-ff --daemon
 Restart=on-failure
 RestartSec=10s
 
 [Install]
 WantedBy=multi-user.target
-
 EOF
-
-# 重新加载systemd，并启动服务
+rm -rf package.$PACKAGE_FORMAT
 sudo systemctl daemon-reload
 sudo systemctl enable $SERVICE_NAME
 echo "安装完成。"
