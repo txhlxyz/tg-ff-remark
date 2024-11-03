@@ -1,12 +1,14 @@
 {
   "currentVersion": "2.1.4",
+  "nextVersion": "2.1.4",
   "versionDetail": {
     "2.1.4":{
       "log": "The underlying version\n",
       "url": {
-        "macosx-amd64":"https://pan.quark.cn/s/6b0a7b9cb4cf",
-        "windows-amd64":"https://pan.quark.cn/s/6b0a7b9cb4cf",
-        "linux-amd64":"https://pan.quark.cn/s/6b0a7b9cb4cf"
+        "macosx-amd64":"https://pan.quark.cn/s/9c9db09a7078",
+        "windows-amd64":"https://pan.quark.cn/s/e9c4db2157b9",
+        "linux-amd64":"https://pan.quark.cn/s/4153f8bf965d",
+        "docker":"docker run --restart=always --name tg-ff --privileged=true -p 8086:8086 -v /etc/localtime:/etc/localtime:ro -v /opt/tg-ff/downloads:/opt/tg-ff/downloads -d oan1x/tg-ff:2.1.4"
       }
     }
   }
