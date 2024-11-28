@@ -44,6 +44,13 @@ docker run \
 * 如果网络没问题将会进入登录界面，使用telegram手机客户端扫码登录即可
 ![](./images/mac-4.png)
 
+# 免费兑换码
+先到先得
+
+<a href="https://pan.quark.cn/s/a1c9f8820526" target="_blank">3天体验兑换码</a>
+
+<a href="https://pan.quark.cn/s/f4322e73a9c2" target="_blank">7天体验兑换码</a>
+
 # 常见问题
 ## - linux支持的系统
 目前只支持：Debian、Ubuntu、Red Hat、Fedora、CentOS 8.0+、Oracle
