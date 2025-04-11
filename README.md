@@ -13,6 +13,12 @@
   </p>
   
   <h3>💎 智能高效的Telegram频道/群组资源整理与管理解决方案</h3>
+  
+  <p>
+    <a href="https://tg-ff.com" class="btn btn-primary" style="font-size: 1.2em; padding: 10px 20px; margin: 10px;">
+      🌐 访问官方网站
+    </a>
+  </p>
 </div>
 
 ## 🌟 项目介绍
@@ -84,11 +90,6 @@ TG-FF提供全方位的Telegram资源管理功能，全面提升您的资源利�
 - [GitHub Releases](https://github.com/txhlxyz/tg-ff-remark/releases) - 获取最新版本
 - [夸克网盘](https://pan.quark.cn/s/a05cae4643f6) - 国内用户推荐下载渠道
 
-```bash
-# Linux用户也可以通过以下命令安装
-curl -fsSL https://get.tg-ff.com/install.sh | bash
-```
-
 ### 快速上手指南
 
 1. **账号登录** - 使用Telegram的QR码安全登录，支持代理设置
@@ -97,35 +98,6 @@ curl -fsSL https://get.tg-ff.com/install.sh | bash
 4. **下载/整理** - 选择需要的内容进行下载或整理操作
 
 > 📝 详细的使用教程请查看我们的[官方文档](https://tg-ff.com/guides/quickstart)
-
-## 📘 高级使用技巧
-
-### 资源自动化处理流程
-
-TG-FF支持创建自动化工作流程，例如:
-
-```
-新消息 → 过滤媒体类型 → 应用命名规则 → 下载到指定文件夹 → 发送通知
-```
-
-### 自定义下载模板
-
-使用变量创建个性化的文件命名模板:
-
-```
-{日期}-{发送者}-{消息ID}-{文件名}
-```
-
-### API集成
-
-TG-FF提供API接口，方便与其他工具集成:
-
-```python
-import tgff
-
-client = tgff.Client(api_key="your_api_key")
-resources = client.get_resources(chat_id="chat_id", limit=100)
-```
 
 ## 🔄 更新日志
 
