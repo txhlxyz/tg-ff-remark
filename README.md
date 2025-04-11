@@ -6,7 +6,7 @@
   <p>
     <a href="https://t.me/tg_ff_bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram" alt="Telegram Bot"></a>
     <a href="https://t.me/tg_ff_group1"><img src="https://img.shields.io/badge/Telegram-Group-blue?logo=telegram" alt="Telegram Group"></a>
-    <a href="https://docs.tg-ff.com"><img src="https://img.shields.io/badge/Documentation-Website-brightgreen" alt="Documentation"></a>
+    <a href="https://tg-ff.com"><img src="https://img.shields.io/badge/Documentation-Website-brightgreen" alt="Documentation"></a>
     <img src="https://img.shields.io/badge/Version-2.2.0-orange" alt="Version">
     <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
     <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-lightgrey" alt="Platform">
@@ -96,7 +96,7 @@ curl -fsSL https://get.tg-ff.com/install.sh | bash
 3. **浏览内容** - 在主界面浏览所有媒体内容，支持缩略图预览
 4. **下载/整理** - 选择需要的内容进行下载或整理操作
 
-> 📝 详细的使用教程请查看我们的[官方文档](https://docs.tg-ff.com/guides/quickstart)
+> 📝 详细的使用教程请查看我们的[官方文档](https://tg-ff.com/guides/quickstart)
 
 ## 📘 高级使用技巧
 
@@ -129,13 +129,13 @@ resources = client.get_resources(chat_id="chat_id", limit=100)
 
 ## 🔄 更新日志
 
-### 版本 2.2.0 (2023-11-20)
+### 版本 2.2.0 (2024-03-21)
 
 - **✨ 新增**: 高级搜索引擎、批量处理优化、多任务并行处理
 - **🔧 改进**: 用户界面重新设计、性能优化、扩展代理支持
 - **🐛 修复**: 解决代理连接问题、修复内存泄漏、优化视频处理
 
-[查看完整更新历史](https://docs.tg-ff.com/changelog)
+[查看完整更新历史](https://tg-ff.com/changelog)
 
 ## 🛠️ 常见问题解答
 
@@ -154,13 +154,13 @@ A: TG-FF针对大型群组优化了处理逻辑，支持增量索引和分批处
 A: 从2.0版本开始，TG-FF提供了插件API，支持通过Python和JavaScript开发自定义插件扩展功能。
 </details>
 
-更多问题请访问我们的[常见问题页面](https://docs.tg-ff.com/faq)。
+更多问题请访问我们的[常见问题页面](https://tg-ff.com/faq)。
 
 ## 👥 社区与支持
 
 - [Telegram官方群组](https://t.me/tg_ff_group1) - 获取实时帮助和交流
 - [GitHub讨论区](https://github.com/txhlxyz/tg-ff-remark/discussions) - 功能建议与bug报告
-- [开发者文档](https://docs.tg-ff.com/dev) - API参考和插件开发指南
+- [开发者文档](https://tg-ff.com/dev) - API参考和插件开发指南
 
 ## 📝 许可证
 
