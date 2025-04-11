@@ -1,60 +1,109 @@
-# 欢迎使用 TG-FF
+# TG-FF Telegram资源管理助手
 
-TG-FF是一款专业的telegram资源下载工具，支持保护资源下载以及丰富的自定义下载设置
+<div align="center">
+  <img src="docs/assets/images/index.png" alt="TG-FF资源管理助手" width="500">
+  
+  <p>
+    <a href="https://t.me/tg_ff_bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram" alt="Telegram Bot"></a>
+    <a href="https://t.me/tg_ff_group1"><img src="https://img.shields.io/badge/Telegram-Group-blue?logo=telegram" alt="Telegram Group"></a>
+    <a href="https://docs.tg-ff.com"><img src="https://img.shields.io/badge/Documentation-Website-brightgreen" alt="Documentation"></a>
+    <img src="https://img.shields.io/badge/Version-2.2.0-orange" alt="Version">
+    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
+  </p>
+  
+  <h3>专业的Telegram资源管理和下载工具</h3>
+</div>
 
-# 安装包下载
+## 📋 功能概览
 
-| 操作系统                                       |                                   下载                                    |
-|:-------------------------------------------|:-----------------------------------------------------------------------:|  
-| **Windows x64**                            | <a href="https://pan.quark.cn/s/e9c4db2157b9" target="_blank">下载安装包</a> |
-| **Mac OS X x64**                           | <a href="https://pan.quark.cn/s/9c9db09a7078" target="_blank">下载安装包</a> |
+TG-FF是一款功能强大的Telegram资源管理助手，专为图片、视频以及聊天内容的归类管理和下载而设计。
 
-# Linux
-```
-curl -sSL https://raw.githubusercontent.com/txhlxyz/tg-ff/refs/heads/main/setup.sh | bash
+### 主要特性
 
-```
-# Docker
+- **🖼️ 智能资源管理** - 对Telegram中的图片、视频和聊天内容进行归类整理
+- **⬇️ 多样化下载选项** - 支持普通下载、批量下载、自动下载等多种方式
+- **📤 高级转发功能** - 提供单文本转发、多图文转发、对话互转等专业功能
+- **🔍 全文检索** - 对聊天内容进行智能索引，支持全局信息检索
 
-```
-docker run \
-  --restart=always \
-  --name tg-ff \
-  --privileged=true \
-  -p 8086:8086 \
-  -v /etc/localtime:/etc/localtime:ro \
-  -v /opt/tg-ff/downloads:/opt/tg-ff/downloads \
-  -d oan1x/tg-ff:2.1.4
-```
+## 💻 支持平台
 
-# 启动界面
+- Windows (x86_64)
+- macOS (x86_64)
 
-* 安装完成后，启动程序进入以下界面，点击【点击直达】按钮，会起调本地浏览器，如果无法打开默认浏览器，可复制地址在浏览器中访问
-![](./images/mac-2.png)
+## 🚀 快速开始
 
-# 网络代理
+### 安装步骤
 
-* 进入主界面，如果你电脑无法直接访问外网请添加代理.
-> 注意：如果是用梯子，也需要设置代理，大部分梯子都默认开启了socks代理，可以在梯子软件中查看
+1. 从[官方发布页面](https://github.com/yourusername/tg-ff/releases)下载适合您系统的安装包
+2. 运行安装程序，按照提示完成安装
+3. 安装完成后，从应用程序列表或开始菜单启动软件
 
-![](./images/mac-3.png)
+### 基本使用
 
-# 扫码登录
+1. **登录** - 使用Telegram扫码登录，支持代理设置
+2. **浏览对话** - 在左侧对话列表中选择目标对话
+3. **下载媒体** - 右侧区域显示媒体内容，选择并下载所需资源
 
-* 如果网络没问题将会进入登录界面，使用telegram手机客户端扫码登录即可
-![](./images/mac-4.png)
+更多详细指南，请查看我们的[完整文档](https://docs.tg-ff.com)。
 
-# 免费兑换码
-先到先得
+## 🌟 核心功能模块
 
-<a href="https://pan.quark.cn/s/a1c9f8820526" target="_blank">3天体验兑换码</a>
+### 1. 登录模块
 
-<a href="https://pan.quark.cn/s/f4322e73a9c2" target="_blank">7天体验兑换码</a>
+- 安全的二维码登录系统
+- 支持SOCKS5和MTProto代理
+- 使用Telegram官方API，确保账号安全
 
-# 常见问题
-## - linux支持的系统
-目前只支持：Debian、Ubuntu、Red Hat、Fedora、CentOS 8.0+、Oracle
-el6和el7系列不支持，Linux建议使用docker运行
+### 2. 普通下载模块
 
+- 对话选择与媒体浏览
+- 时间筛选和高级过滤
+- 一键/批量下载
 
+### 3. 个性化下载模块
 
+- **批量下载** - 针对历史消息的大规模媒体内容下载
+- **自动下载** - 新消息自动监听和下载
+- **单文本转发** - 文本内容批量转发
+- **多图文转发** - 灵活的媒体和文本组合转发
+- **对话互转** - 自动消息转发系统
+
+### 4. 信息检索模块
+
+- 自动检索和历史检索
+- 强大的搜索引擎
+- 结果导出功能
+
+## 📊 版本历史
+
+### 版本 2.2.0 (2023-11-20)
+
+- **新增功能**: 高级搜索引擎、图片预览增强、多任务管理
+- **功能改进**: 用户界面优化、性能提升、扩展代理支持
+- **问题修复**: 修复代理设置、内存泄漏和视频显示问题
+
+[查看完整更新日志](https://docs.tg-ff.com/changelog)
+
+## 🔗 相关链接
+
+- [官方文档](https://docs.tg-ff.com)
+- [官方助手机器人](https://t.me/tg_ff_bot)
+- [用户交流群](https://t.me/tg_ff_group1)
+
+## ❓ 常见问题
+
+有关常见问题的解答，请查看我们的[FAQ页面](https://docs.tg-ff.com/faq)。
+
+## 📝 许可证
+
+本项目采用MIT许可证。详见[LICENSE](LICENSE)文件。
+
+## ⭐ 支持项目
+
+如果您觉得TG-FF对您有所帮助，请考虑给这个仓库点个⭐星。您的支持是我们持续改进的动力！
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by TG-FF Team</sub>
+</div> 
