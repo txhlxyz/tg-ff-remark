@@ -7,7 +7,7 @@
     <a href="https://t.me/tg_ff_bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram" alt="Telegram Bot"></a>
     <a href="https://t.me/tg_ff_group1"><img src="https://img.shields.io/badge/Telegram-Group-blue?logo=telegram" alt="Telegram Group"></a>
     <a href="https://tg-ff.com"><img src="https://img.shields.io/badge/官方文档-Website-brightgreen" alt="Documentation"></a>
-    <img src="https://img.shields.io/badge/Version-2.2.0-orange" alt="Version">
+    <img src="https://img.shields.io/badge/Version-2.2.1-orange" alt="Version">
     <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
     <img src="https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20(Intel/Apple%20Silicon)-lightgrey" alt="Platform">
   </p>
@@ -107,7 +107,14 @@
 
 ## 🔄 最新更新
 
-### 版本 2.2.0 (2024-03-21)
+### 版本 2.2.1 (2025-04-17)
+
+- **🐛 修复**: 修复部分群组媒体下载失败的问题
+- **🐛 修复**: 解决macOS上Apple Silicon芯片偶发性崩溃问题
+- **🐛 修复**: 修复与最新版Telegram API兼容性问题
+- **🔧 改进**: 优化大型群组下载性能，提高稳定性
+
+### 版本 2.2.0 (2024-04-11)
 
 - **✨ 新增**: Apple Silicon原生支持、高级搜索引擎、批量处理优化
 - **🔧 改进**: 界面重新设计、性能提升70%、扩展代理支持
