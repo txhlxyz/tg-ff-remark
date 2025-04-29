@@ -7,11 +7,7 @@
     <a href="https://t.me/tg_ff_bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram" alt="Telegram Bot"></a>
     <a href="https://t.me/tg_ff_group1"><img src="https://img.shields.io/badge/Telegram-Group-blue?logo=telegram" alt="Telegram Group"></a>
     <a href="https://tg-ff.com"><img src="https://img.shields.io/badge/官方文档-Website-brightgreen" alt="Documentation"></a>
-<<<<<<< HEAD
     <img src="https://img.shields.io/badge/Version-3.0.9-orange" alt="Version">
-=======
-    <img src="https://img.shields.io/badge/Version-2.2.1-orange" alt="Version">
->>>>>>> 936d07522460f3913cb2add6fd9441753e065a5f
     <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
     <img src="https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20(Intel/Apple%20Silicon)-lightgrey" alt="Platform">
   </p>
@@ -122,17 +118,6 @@
 
 ## 🔄 最新更新
 
-<<<<<<< HEAD
-=======
-### 版本 2.2.1 (2025-04-17)
-
-- **🐛 修复**: 修复部分群组媒体下载失败的问题
-- **🐛 修复**: 解决macOS上Apple Silicon芯片偶发性崩溃问题
-- **🐛 修复**: 修复与最新版Telegram API兼容性问题
-- **🔧 改进**: 优化大型群组下载性能，提高稳定性
-
-### 版本 2.2.0 (2024-04-11)
->>>>>>> 936d07522460f3913cb2add6fd9441753e065a5f
 
 ### 版本 3.0.0 (2025-04-27)
 
