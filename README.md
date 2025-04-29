@@ -1,7 +1,7 @@
 # TG-FF - 突破飞机(Telegram)媒体保存限制 | 下载灰色图标内容 | 批量保存受保护图片视频
 
 <div align="center">
-  <img src="images/index.png" alt="TG-FF资源管理助手" width="500">
+  <img src="./images/index.png" alt="TG-FF资源管理助手" width="500">
   
   <p>
     <a href="https://t.me/tg_ff_bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram" alt="Telegram Bot"></a>
