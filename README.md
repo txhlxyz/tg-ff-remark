@@ -1,6 +1,14 @@
 # TG-FF - Telegram资源下载神器 | 突破媒体保存限制 | 批量下载受保护内容
 
 <div align="center">
+  <p>
+    <b>语言 | Language</b>: 
+    <a href="README.md">简体中文</a> | 
+    <a href="README_zh-Hant.md">繁體中文</a>
+  </p>
+</div>
+
+<div align="center">
   <img src="./images/index.png" alt="TG-FF资源管理助手" width="500">
   
   <p>
@@ -184,11 +192,4 @@ A: 这是因为群组或频道管理员设置了"禁止保存媒体"选项。TG-
   <sub>TG-FF - 突破Telegram媒体保存限制的最佳工具</sub>
   <br>
   <sub>© 2024 TG-FF Team. All rights reserved.</sub>
-</div>
-
-<div align="center">
-  <p>
-    <a href="README.md">简体中文</a> | 
-    <a href="README_zh-Hant.md">繁體中文</a>
-  </p>
 </div> 
