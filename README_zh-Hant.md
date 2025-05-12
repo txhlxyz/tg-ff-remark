@@ -149,16 +149,6 @@
 ## 🛠️ 常見問題解答
 
 <details>
-<summary><b>Q: Telegram群禁止保存圖片，TG-FF怎麼實現下載的？</b></summary>
-A: TG-FF使用特殊技術，通過Telegram官方API的合法調用方式，巧妙地繞過了媒體保存限制。這種方法安全有效，不會影響您的賬號安全，是突破Telegram限制下載媒體的理想解決方案。
-</details>
-
-<details>
-<summary><b>Q: TG-FF使用安全嗎？會洩露我的賬號信息嗎？</b></summary>
-A: TG-FF使用官方API，所有認證過程都在本地完成，不會收集或存儲您的賬號憑證。
-</details>
-
-<details>
 <summary><b>Q: 批量轉文功能如何使用？</b></summary>
 A: 只需選擇包含圖片的對話，設置輸出格式(如微信公眾號、今日頭條)，點擊"開始轉換"，軟件會自動提取圖片中的文字，生成排版美觀的文檔，支持docx等格式導出。
 </details>
